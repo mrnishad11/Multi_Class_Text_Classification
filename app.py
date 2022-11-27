@@ -1,7 +1,5 @@
 import streamlit as st
 import pickle
-import string
-import nltk
 
 model=pickle.load(open('model.pkl','rb'))
 st.title("SMS Classifier")
